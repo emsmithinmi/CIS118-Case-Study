@@ -1,4 +1,4 @@
-/* cis118 Pacific Trails Case Study Chapter 9 - Eric Smith - pacific.css*/
+/* cis118 Pacific Trails Case Study Chapter 11 - Eric Smith - pacific.css*/
 
 * { box-sizing: border-box; }
 header,nav,main,footer { display: block; }
@@ -84,6 +84,8 @@ label { float: left;
 input, texarea { display: block;
                  margin-bottom: 1em; }
 #mySubmit { margin-left: 10em; }
+video, embed { float: right;
+               margin: 2em; }
 @media only screen and (max-width: 1024px) {
   body { margin: 0;
          padding: 0;
